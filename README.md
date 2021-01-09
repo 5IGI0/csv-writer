@@ -8,6 +8,8 @@ usage:
 
 #include <stdio.h>
 
+#include "csv.h"
+
 int main(void) {
 
     FILE *file = fopen("example.csv", "w");
